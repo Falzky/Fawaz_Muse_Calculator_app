@@ -1,0 +1,75 @@
+/* Centering the calculator title */
+
+h2{
+  text-align: center;
+}
+
+/* Container holding the calculator */
+.container{
+  width: 350px;
+  background-color: #242530;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: auto;
+  border: 2px solid #3A3F77;
+}
+
+/* Style for the display screen (textarea) */
+textarea{
+  width: 280px;
+  padding: 10px;
+  margin-bottom: 10px;
+  background-color: #3A3F77;
+  border: none;
+  border-radius: 16px;
+  font-size: 14px;
+  text-align: center;
+}
+
+/* Common button styles */
+.buttons > input{
+  width: 50px;
+  height: 40px;
+  margin: 5px 4px;
+  border: none;
+  border-radius: 17px;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+/* styling  buttons */
+.dark{
+  background-color: #404258;
+}
+
+/* Hover and active effect for number buttons */
+.dark:hover,
+.dark:active {
+  background-color: #5a5d80;
+  transform: scale(1.05);
+}
+
+.buttons .orange{
+  background-color: #F49D1A;
+  border-radius: 30px;
+}
+
+.orange:hover,
+.orange:active {
+  background-color: #f7b041;
+  transform: scale(1.05);
+}
+
+.grey{
+  background-color: #b2b2b2;
+}
+
+
+.grey:hover,
+.grey:active {
+  background-color: #d5d5d5;
+  transform: scale(1.05);
+}
+
